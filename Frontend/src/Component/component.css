@@ -1,0 +1,798 @@
+/* --------------------tee card--------------------------- */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.teeImage{
+    width: 292px;
+    height: 270px;
+   
+}
+.pantImage{
+    width: 300px;
+    height: 380px;
+}
+.imgPolo, .imgPolo1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+.teeCard1{
+ margin: 12px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ /* text-align: center; */
+}
+.teeImage1{
+
+    width: 292px;
+    height: 310px;
+}
+.teeImage2{
+    width: 300px;
+    height: 400px;
+}
+.card-title{
+    font-size: 16px;
+}
+.imgPolo1{
+    background: #ebebec;
+}
+
+.sizeContainer {
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   
+             
+}
+
+.sizeDetail {
+    display: flex;               
+}
+
+
+.cardMiddle{
+    display: flex;
+    justify-content: space-between;
+}
+.sizeOptions{
+    color: rgb(46, 46, 46);
+    font-size: 14px;
+}
+
+.cardWrap{
+    text-decoration: none;
+   
+}
+
+.cardWrap:hover .teeImage{
+    opacity: 0.98;
+    transform: scale(0.98);
+   
+    
+}
+.price{
+    color: #ca3232;
+    font-weight: 600;
+    margin-top: 13px;
+    margin-bottom: auto;
+    font-size: 15px;
+}
+
+.sizeOption{
+    font-size: 13px;
+}
+.sizeLabel{
+    color: #574d4d;
+    font-family: sans-serif;
+}
+.cart-button{
+    display: flex;
+   
+    justify-content: space-between;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1.5px solid rgb(154, 153, 153);
+    color: rgb(0, 0, 0);
+    padding: 8px 10px;
+    font-weight: 500;
+}
+.cart-button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.3s ease-in;
+}
+.cartIcon{
+    align-items: center;
+    
+    
+}
+.teeDescription{
+    width: 260px;
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #484848;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.star{
+    color: rgb(225, 225, 108);
+}
+.rating{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14.5px;
+    font-weight: 100;
+}
+.priceSection{
+    margin-top: 5px;
+
+}
+.priceSection, .ratingSection{
+    
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.priceLabel{
+    color: #574d4d;
+    margin-top: 9px;
+}
+.ratingLabel{
+    color: #574d4d;
+}
+.containerTee{
+    margin-bottom: 50px;
+}
+/* -----------------Popular card --------------------*/
+.cardPop{
+   
+    min-width: 320px; 
+    max-width: 320px;
+   
+}
+
+
+.imgColorTee{
+    
+    min-width: 294px;
+    max-width: 294px;
+    height: 320px;
+}
+
+.flexArrowColor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrowRight{
+   text-align: center;
+}
+.WrapColorAll{
+    text-decoration: none;
+}
+.colors {
+    display: flex;
+    gap: 10px; 
+    margin-top: 8px;
+}
+  
+  
+.colors div {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%; 
+    
+}
+  
+
+.lightBlue {
+    background-color: lightblue;
+}
+.darkBlue {
+    background-color: rgb(22, 24, 164);
+}
+  
+.darkgrey {
+    background-color: rgb(108, 119, 122);
+}
+  
+.white {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #696767;
+}
+  
+.black {
+    background-color: black;
+}
+.grey {
+    background-color: rgb(132, 132, 132);
+}
+.lightyellow {
+    background-color: rgb(199, 206, 107);
+}
+.green {
+    background-color: rgb(5, 112, 28);
+}
+.brown {
+    background-color: rgb(135, 64, 6);
+}
+
+.darkRed {
+    background-color: rgb(90, 5, 5);
+}
+.availableColor{
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+  
+.WrapColorAll{
+    cursor: pointer;
+   
+}
+.WrapColorAll:hover{
+     opacity: 0.92;
+     border: 1px solid rgb(160, 160, 160);
+}
+
+.WholeContainerItems{
+    display: flex;
+    justify-content: center;
+    
+}
+.containerCartItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background: white; */
+    padding: 20px 10px 2px 10px;
+    /* margin: 10px 0; */
+    border-radius: 6px;  
+    /* box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1), -2px -4px 6px rgba(0, 0, 0, 0.05); */
+    width: auto;
+    max-width: 500px;
+    transition: transform 0.2s ease-in-out;
+}
+.containerCartItems1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+        
+    background: white;
+    margin: 10px 0;
+    border-radius: 6px;  
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1), -2px -4px 6px rgba(0, 0, 0, 0.05); /* Light shadow */
+    width: 90%;
+    max-width: 500px;
+   
+}
+
+.containerCartItems:hover {
+    transform: scale(0.99); /* Slight lift effect on hover */
+}
+
+/* Image styling */
+.cartItemImage {
+    width: 130px;
+    height: 130px;
+    border-radius: 8px; /* Soft rounded corners */
+    object-fit: cover;
+    margin-right: 30px;
+    align-items: flex-start;
+}
+.itemsDescription{
+   width: auto; 
+   font-family: sans-serif;
+   font-size: 15px;
+}
+.itemsDescription strong{
+    margin-right: 4px;
+}
+.itemDesP{
+    width: auto;
+}
+/* Details section */
+.detailItemsAdded {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    font-family:  serif;
+    line-height: 10px;
+    flex-grow: 1;
+    gap: 15px;
+}
+
+.detailItemsAdded div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.spanPrice{
+    
+    color: #454242;
+    font-weight: 400;
+}
+
+/* Styling for quantity section */
+.quantity {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 140px ;
+    gap: 5px;
+}
+
+/* Quantity number */
+
+.quantityp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;  
+    margin: 0; 
+    width: 20px;
+   
+    font-size: 13px;
+    
+    background: #f8f8f8;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.remove-p{
+    margin-right: 5px;
+}
+.quantity-button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: 9px;
+    font-weight: bold;
+    border: none;
+    background: #000000; 
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.quantity-button:hover {
+    background: #0056b3; /* Darker blue on hover */
+}
+
+.quantity-button:active {
+    transform: scale(0.95); /* Slight shrink on click */
+}
+.div-removeButton{
+    text-align: right;
+    
+}
+.remove-button{
+    margin: 0 7px 10px 0;
+    border: none;
+    padding: 5px 7px 5px 7px;
+    font-size: 13px;
+    color: #c02929;
+    
+    border-radius: 4px;
+   
+}
+.remove-button:hover{
+    
+    background-color: #ddd;
+    color: #b20404;
+}
+.addedItemsName{
+    width: 200px;
+}
+.itemDesP{
+    width: 190px;
+}
+.b-logout{
+    background-color: white;
+    
+}
+.b-logout:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: 0.4s;
+    
+}
+
+/* ------------animation effect on scroll---------------  */
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+        /* clip-path: inset(100% 100% 0 0); */
+
+        /* animation comes from left to right */
+        /* transform: translateX(-100px); */
+        
+        
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+        /* animation comes from left to right */
+        /* transform: translateX(0); */
+        clip-path: inset(0 0 0 0);
+    }
+    
+}
+/* .cardPop{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+} */
+
+@keyframes slideInLeft {
+    from {
+      opacity: 0;
+      
+      transform: translateX(-100px);
+    }
+    to {
+      opacity: 1;
+      
+      transform: translateX(0);
+    }
+}
+  
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        scale: 0.7;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        scale: 1;
+        transform: translateX(0);
+    }
+}
+/* .sweater-img {
+    animation: slideInLeft 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+    animation-range: entry 0% cover 100%;
+  
+
+} */
+
+@keyframes slideInLeft1 {
+    from {
+      scale: 0.7;
+      transform: translateX(-100px);
+    }
+    to {
+        scale:100%;
+      transform: translateX(0);
+    }
+}
+  
+@keyframes slideInRight1 {
+    from {
+        scale: 0.7;      
+        transform: translateX(100px);
+    }
+    to {
+        scale: 100%;       
+        transform: translateX(0);
+    }
+}
+/* .category-left{
+     animation: slideInLeft1 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; 
+     animation-timeline: view();
+     animation-range: entry 0% contain 120%;
+
+}
+.category-right{
+    animation: slideInRight1 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards; 
+    animation-timeline: view();
+    animation-range: entry 0% contain 120%;
+
+} */
+/* 
+  
+.SweaterPageText {
+   
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.1s;
+
+} */
+
+.strong{
+    display: inline-block; /* or block if you want full width */
+    width: 45px;
+    
+}
+  
+
+ 
+/* -------------------Responsive Design --------------------*/
+@media screen and (max-width: 650px){
+.itemsDescription{
+    width: 160px;
+    font-size: 14px;
+}
+.cartItemImage
+{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+}
+
+}
+@media screen and (max-width: 990px){
+    .category-section {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .home-page-heading {
+        font-size: 23px;
+        
+        line-height: 25px;
+        
+        margin: 4px 0;
+        
+      }
+      .aboutUs-p {
+        max-width: 400px;
+        font-size: 0.9rem;
+        line-height: 1.4;
+        color: #333;
+        text-align: left;
+      }
+    .category-left {
+        
+        max-width: 430px;
+        min-width: 430px;
+        
+    }
+    .category-img1 {
+        width: 200px;
+        
+        height: auto;
+        
+      }
+      .modelGroupShirt{
+ 
+        max-width: 255px; 
+        height: 55vh; 
+        
+        border-radius: 10px; 
+        margin-right: 14px;
+       
+      }
+      .modelGroupShirt1{
+       
+        max-width: 255px; 
+         
+        height: 55vh; 
+        
+        border-radius: 10px; 
+        margin-right: 14px;
+       
+      }
+      .sweater-heading1{
+        font-size: 24px;
+        font-family: 'Poppins', sans-serif;
+        width: auto;
+        
+      }
+      .sweater-heading, .newArrival{
+        font-size: 24px;
+                
+      }
+      .SweaterPageText {
+        
+        max-width: 450px;
+        
+      }
+      .SweaterPageText p{
+        font-size: 15px;
+      }
+      .modelGroupShirt2{
+ 
+        width: 240px; 
+        height: 57vh; 
+        
+        border-radius: 10px; 
+        margin-right: 17px;
+       
+      }
+
+}
+@media screen and (max-width: 780px){
+    .imgForShirt{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: flex-start; */
+        gap: 20px;
+        align-items: center;
+        
+      }
+      .modelGroupShirt1{
+       
+        max-width: 200px; 
+         
+        height: 42vh; 
+        
+        border-radius: 10px; 
+        /* margin-right: 27px; */
+       
+      }
+      .sweater-heading1{
+        font-size: 19px;
+        font-family: 'Poppins', sans-serif;
+        width: auto;
+        
+      }
+      .sweater-heading, .newArrival{
+        font-size: 19px;
+                
+      }
+      .SweaterPageText p{
+        font-size: 14px;
+      }
+      .SweaterPageText {
+        
+        max-width: 350px;
+        
+      }
+      .modelGroupShirt{
+ 
+        max-width: 200px; 
+        height: 42vh; 
+        
+        border-radius: 10px; 
+        /* margin-right: 17px; */
+       
+      }
+      .modelGroupShirt2{
+ 
+        width: 210px; 
+        height: 48vh; 
+        
+        border-radius: 10px; 
+        margin-right: 15px;
+       
+      }
+      .RegForm{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        align-items: center;
+          margin-top: 30px;
+        width: 350px;
+        background-color: white;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+          text-align: center;
+      
+      }
+      .regin{
+        width: 290px;
+      display: flex;
+      flex-direction: column;
+      
+      justify-content: center;
+      gap: 15px;
+    
+    }
+
+}
+@media screen and (max-width: 600px){
+    .imgForShirt{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 20px;
+        align-items: center;
+        
+      }
+      .imgForSweater{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+}
+@media screen and (max-width: 480px){
+    .modelGroupShirt1{
+       
+        max-width: 150px; 
+         
+        height: 35vh; 
+        
+        border-radius: 10px; 
+        /* margin-right: 27px; */
+       
+      }
+      
+      .modelGroupShirt{
+ 
+        max-width: 150px; 
+        height: 35vh; 
+        
+        border-radius: 10px; 
+        /* margin-right: 17px; */
+       
+      }
+      .modelGroupShirt2{
+ 
+        width: 150px; 
+        height: 38vh; 
+        
+        border-radius: 10px; 
+        margin-right: 15px;
+       
+      }
+      .itemsDescription{
+        width: 130px;
+        font-size: 12px;
+    }
+    .cartItemImage
+    {
+        width: 90px;
+        height: 90px;
+        margin-right: 3px;
+    }
+    
+      .home-page-heading {
+        font-size: 20px;
+        
+        line-height: 22px;
+        
+        margin: 4px 0;
+        
+      }
+      .aboutUs-p {
+        max-width: 350px;
+        font-size: 0.87rem;
+        line-height: 1.3;
+    }
+    .category-left {
+        
+        max-width: 300px;
+        min-width: 300px;
+        
+    }
+    .category-img {
+        max-width: 130px;
+        min-width: 130px;
+        
+        height: auto;
+        
+      }
+    .category-img1 {
+        width: 130px;
+        
+        height: auto;
+        
+      }
+      .home-h1{
+        font-size: 16px;
+      }
+    .home-h3{
+        font-size: 16px;
+
+      }
+
+}
+ 
+  

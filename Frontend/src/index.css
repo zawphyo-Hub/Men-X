@@ -1,0 +1,839 @@
+
+/* ---------------NavBar--------------------- */
+
+nav{
+  position: sticky!important;
+  top: 0!important;
+  z-index: 1000!important;
+  border: 1px solid rgb(241, 239, 239);
+}
+.theWholeContainer {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;  
+  font-family: 'poppins';
+  
+  
+}
+.links-nav {
+  flex-grow: 1;  
+  display: flex;
+  justify-content: center; 
+  
+}
+
+.navbar .navbar-brand{
+  
+  font-family: fantasy;
+  font-size: 23px;
+  
+}
+.nav-item{
+  padding-right: 10px;
+  padding-left: 10px;
+   
+}
+.nav-item:hover{
+  background-color: #bdc1c5;
+  border-radius: 5px;
+}
+.drop-iconlinks{
+  display: flex;
+  justify-content: center;
+}
+.wrap-logo{
+ 
+  margin-top: 11px;
+}
+.wrap-logo img{
+  
+  width: 40px;
+  height: 40px;
+ 
+}
+.login-button{
+  text-decoration: none;
+  font-family:  sans-serif;
+  color: #ffffff;
+  background-color: rgb(0, 0, 0);
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+
+
+}
+.account-button{
+   
+  cursor: pointer;
+
+}
+.account-img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3px;
+  
+  width: 25px;
+  height: 25px;
+  
+}
+.login-button:hover{
+  background-color: #bdc1c5;
+  color: black;
+  border-radius: 5px;
+}
+
+.cart{
+  font-size: 20px;
+  padding-left: 25px;
+}
+.cart-link{
+  
+  color: black;
+  cursor: pointer;
+}
+.cart-link:hover{
+  color: #8c8f92;
+}
+.checkout-button{
+  border-radius: 7px;
+  background-color: #000000;
+  color: white;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+.checkout-button:hover{
+  
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+.cartIcon{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.cartSpan{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  /* margin-top: 10px; */
+  background-color: rgb(253, 1, 1);
+  clip-path: circle();
+  transform: translate(50%, 40%);
+  padding: 4px;
+  padding-top: 3.2px;
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fcfcfc;
+
+}
+.nav-item .dropdown-toggle:hover {
+  transform: rotate(360deg);  
+  color: white !important;  
+  transition: transform 0.5s ease; 
+   
+}
+.links-login{
+  display: flex;
+}
+.dropdown-item:hover{
+  background-color: #bdc1c5!important;
+}
+
+/* ------------- Shirt Page ------------- */
+
+
+.PantPageCover, .shirtPageCover, .SweaterPage {
+  
+  background-color: #eceaea;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  
+  height: 88vh;
+  
+ 
+}
+
+.imgForShirt{
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  overflow: hidden;
+  
+}
+.modelGroupShirt{
+ 
+  max-width: 300px; 
+  height: 68vh; 
+  
+  border-radius: 10px; 
+  margin-right: 20px;
+ 
+}
+.modelGroupShirt1{
+ 
+  max-width: 330px; 
+   
+  height: 68vh; 
+  
+  border-radius: 10px; 
+  margin-right: 20px;
+ 
+}
+.modelGroupShirt2{
+ 
+  width: 290px; 
+  height: 65vh; 
+  
+  border-radius: 10px; 
+  margin-right: 20px;
+ 
+}
+
+
+
+
+.shirtPageText, .SweaterPageText {
+  text-align: left;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+}
+.shirtPageText{
+  width: 300px;
+}
+.containerTee{
+  margin-top: 30px;
+}
+.headTeeColl {
+  position: relative;
+  text-align: center;
+  margin: 40px 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.headTeeColl::after {
+  content: "";
+  display: block;
+  width: 130px;
+  height: 3px;
+  background-color: rgb(174, 4, 4);
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.Popular{
+  text-align: center;
+  margin: 40px;
+  
+}
+
+
+
+/* ------------------Login & Register Page---------------------- */
+.logback{
+	background-color: gainsboro;
+}
+.logContainer,.RegContainer{
+	display: flex;
+	justify-content: center;
+	
+}
+.eyePassword {
+    position: relative;
+    width: 100%; 
+}
+
+
+.eyePassword .inputlog {
+    width: 100%;
+	  max-width: 400px;
+   
+    padding-left: 10px; 
+    height: 40px; 
+    box-sizing: border-box;
+}
+
+.eyePassword i {
+    position: absolute;
+	 font-size: 12px;
+    right: 44px;
+    top: 50%;
+    transform: translateY(-30%); 
+    cursor: pointer;
+    color: black; 
+}
+
+#password{
+	width: 300px;
+}
+
+.loginForm {
+	margin-top: 40px;
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	text-align: center;
+
+}
+.RegForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+	margin-top: 40px;
+  width: 750px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+	text-align: center;
+
+}
+
+.logPhoto1{
+	align-items: center;
+    display: flex;
+    flex-direction: column;
+	padding-bottom: 20px;
+	margin-top: 10px;
+    
+	
+}
+
+
+
+#span{
+    font-size:15px;
+    justify-content: center;
+    display: flex;
+    margin-top: 7px;
+	font-family: sans-serif;
+	color: black;
+
+}
+
+#span a{
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+	font-family: sans-serif;
+	padding-left: 5px;
+}
+#span a:hover{
+	color: darkblue;
+	
+}
+
+
+.buttonreg {
+    width: 270px;
+    background-color:#000000 ;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 15px;
+	margin-top: 15px;
+    
+}
+.buttonlog{
+	  width: 300px;
+    background-color:#000000 ;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    
+    margin-top: 15px;
+}
+.buttonlog:hover, .buttonreg:hover{
+	opacity: 0.8;
+  
+}
+.logPhoto1 .inputLog{
+	width: 300px;
+    padding: 10px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.regin{
+	width: 390px;
+  display: flex;
+  
+  justify-content: center;
+  gap: 25px;
+
+}
+.reginput{ 
+    width: 280px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.reginput1{ 
+  width: 280px;
+  height: 112px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 1px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.regPhoto {
+	width: 301px;
+  text-align: center;
+}
+.regincontainer{
+	display: flex;
+  justify-content: center;
+  
+  align-items: center;
+	
+}
+
+.regPhoto h2 {
+    text-align: center;
+    margin-bottom: 20px;
+	  text-transform: capitalize;
+    font-size: 20px;
+	color: #000000;
+}
+.logPhoto1 h2{
+	text-align: center;
+	margin-top: 20px;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    font-size: 20px;
+	color: #000000;
+}
+
+/* --------------------Shopping Cart Page ---------------------- */
+.headingCartPage{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  font-size: 22px;
+
+}
+.cartIcon1{
+  margin-left: 9px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cartWholeContainer{
+  margin-top: 25px;
+  text-align: center;
+}
+/* --------------Home Page Design---------------- */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.home-background {
+  background: linear-gradient(135deg, #0a0a0a, #1c1c1c);
+  height: 50vh;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* padding: 0 20px; */
+}
+
+.home-page-heading {
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 30px;
+  text-transform: capitalize;
+  margin: 5px 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.home-page-heading:nth-of-type(1){
+  animation-delay: 0.2s;
+}
+.home-page-heading:nth-of-type(2){
+  animation-delay: 0.4s;
+}
+
+.home-page-p {
+  color: #cccccc;
+  max-width: 600px;
+  font-size: 15px;
+  line-height: 23px;
+  margin-top: 15px;
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.6s;
+}
+
+.shop-now-btn {
+  margin-top: 15px;
+  padding: 10px 23px;
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  opacity: 0;
+  animation: fadeInUp 1s ease-out forwards;
+  animation-delay: 0.8s;
+}
+
+.shop-now-btn:hover {
+  background-color: #918f8f;
+}
+.category-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+}
+
+.category-left,
+.category-card {
+  
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.category-card{
+  max-height: 200px;
+}
+
+.category-left {
+  flex: 2;
+  display: flex;
+  max-width: 570px;
+  min-width: 510px;
+  
+}
+
+.category-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 430px;
+}
+
+.category-card {
+  display: flex;
+  
+}
+
+.category-img {
+  max-width: 180px;
+  min-width: 180px;
+  
+  height: 200px;
+  
+}
+.category-img1 {
+  width: 300px;
+  
+  height: auto;
+  
+}
+.img-aboutus{
+  max-width: 2050px;
+  height: 280px;
+}
+
+.category-content {
+  padding: 1rem;
+}
+
+.item-count, .item-count1 {
+  font-weight: bold;
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+
+.category-content .h3 {
+  margin-bottom: 0.5rem;
+  font-size: 25px;
+}
+.home-h3{
+  font-size: 20px;
+}
+
+.category-content ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.category-content ul li {
+  font-size: 0.8rem;
+  color: #333;
+  margin: 0.2rem 0;
+}
+
+
+/* -----------------Sweater Page Design ---------------------*/
+.sweater-heading, .newArrival{
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+
+  
+}
+.emptyCartMessage {
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: #020202;
+}
+
+.sweater-heading1{
+  font-size: 28px;
+  font-family: 'Poppins', sans-serif;
+  width: 300px;
+  
+}
+.imgForSweater{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  overflow: hidden;
+}
+.newArrival{
+  color: red;
+}
+
+/*---------------- About Us Section-------------------- */
+
+.aboutUs-section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.aboutUs-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.about-img img {
+  max-width: 270px;
+  width: 100%;
+  max-height: auto;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.aboutUs-p {
+  max-width: 500px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  text-align: left;
+}
+
+/* -------------------------Edit form User------------------------------ */
+
+.editBody{
+	background-color:#f4f4f4 ;
+
+	
+}
+.edit-wholebody{
+	display: flex;
+	justify-content: center;
+}
+.edit-container{
+	
+	justify-content: center;
+	text-align: center;
+	background-color: white;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
+	width: 450px;
+	height: 500px;
+	border-radius: 10px;
+	margin-top: 50px;
+}
+.edit-input input{
+	
+	width: 250px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	color: dimgray;
+	
+}
+.edit-input label{
+	display: block;
+	text-align: left;
+	margin-left: 23%;
+	font-family:  sans-serif;
+	font-size: 14px;
+}
+.edit-input select{
+	width: 270px;
+    padding: 10px;
+	margin-top: 0;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+	color: dimgray;
+}
+.edit-container h2{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-family: sans-serif;
+	font-size: 18px;
+	
+}
+.edit-container button{
+	width: 90px;
+	padding: 7px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 20px;
+	background-color:gray;
+	color: white;
+
+}
+.edit-container button:hover{
+	background-color: black;
+	color: white;
+	transition: ease-in-out 0.15s;
+}
+
+/* -----------Footer------------------*/
+.footer-row
+{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: "Poppings", sans-serif;
+
+	justify-content: center;
+	background-color: #000000;
+
+}
+.footer-column
+{
+	margin: 40px;
+
+}	
+.Main-links{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+}
+.footer-row	li a
+{
+	font-family: Calibri;
+	
+	text-decoration: none;
+	color:rgb(216, 209, 209);
+	margin-top: 10px;
+}
+.footer-row ul
+{
+	list-style: none;
+
+}
+.footer-column h4{
+	color: white;
+  font-size: 16px;
+}
+.footer-column p, ul  
+{
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.footer-column i
+{
+	padding-top: 20px;
+}
+.footer-column p
+{
+	color: rgb(216, 209, 209);
+	font-family: Calibri;
+	font-size: 14px;
+}
+.f-container
+{
+	background-color: #000000;
+	
+}
+.copyright
+{
+	color: white;
+	text-align: center;
+  padding: auto;
+  margin: auto;
+  font-size: 	15px;
+	
+}
+
+.footerpolicy{
+	text-decoration: none;
+	color: white;
+	
+}
+.f-pageUL .f-page{
+	padding-top: 5px;
+	color:rgb(216, 209, 209);
+}
+.f-page-Links{
+  font-size: 16px!important;
+  
+  color: rgb(216, 209, 209);
+}
+
+
+
+
+

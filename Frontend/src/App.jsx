@@ -24,7 +24,7 @@ const clientID = "576751783022-0f74mck7m9lgdvq5kno19ekaccsc4b65.apps.googleuserc
 function App() {
   return (
     <GoogleOAuthProvider clientId={clientID}>
-      <Router>
+      <Router basename="/Men-X">
         <MainApp />
       </Router>
     </GoogleOAuthProvider>

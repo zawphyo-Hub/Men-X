@@ -2,6 +2,7 @@ import mh1 from './assets/mh1.jpg';
 import mh2 from './assets/mh2.jpg';
 import mh3 from './assets/mh3.jpg';
 import mh4 from './assets/mh4.jpg';
+import { Link } from "react-router-dom";
 
 import { motion } from "framer-motion";
 function Home(){
@@ -15,7 +16,11 @@ function Home(){
                     From cozy hoodies to street-ready fits, we've got the looks to match your mood.  
                     Slide into styles that turn heads—wherever you go.
                 </p>
-                <button className="shop-now-btn">Shop Now</button>
+                <Link to="/shirts" className="shop-now-btn">
+                   Shop Now
+                </Link>
+                {/* <button to="/Men-X/shirts" className="shop-now-btn">Shop Now</button>
+                <a href=" /Men-X/shirts" className="f-page-Links">T-Shirts</a> */}
             </div>
 
 

@@ -16,12 +16,12 @@ function Footer(){
 				 <div className="footer-column">
 					<h4>Main Pages</h4>
 					<div className="Main-links">
-					    <a href=" /Men-X/home" className="f-page-Links">Home</a>
-						<a href=" /Men-X/shirts" className="f-page-Links">T-Shirts</a>
-						<a href=" /Men-X/pants" className="f-page-Links">Pants</a>
-						<a href=" /Men-X/sweaterhoodie" className="f-page-Links">Sweaters</a>
-						<a href=" /Men-X/cart" className="f-page-Links">CartPages</a>
-						<a href=" /Men-X/login" className="f-page-Links">Login</a>
+						<Link to="/Men-X/home" className="f-page-Links">Home</Link>
+						<Link to="/Men-X/shirts" className="f-page-Links">T-Shirts</Link>
+						<Link to="/Men-X/pants" className="f-page-Links">Pants</Link>
+						<Link to="/Men-X/sweaterhoodie" className="f-page-Links">Sweaters</Link>
+						<Link to="/Men-X/cart" className="f-page-Links">CartPages</Link>
+						<Link to="/Men-X/login" className="f-page-Links">Login</Link>
 
 					</div>
 				

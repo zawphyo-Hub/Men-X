@@ -806,5 +806,20 @@
       }
 
 }
+@media screen and (max-width: 420px){
+    .category-img1 {
+        width: 170px;
+        
+        height: auto;
+        
+      }
+      .category-left {
+        
+        max-width: 335px;
+        min-width: 300px;
+        
+    }
+
+}
  
   
